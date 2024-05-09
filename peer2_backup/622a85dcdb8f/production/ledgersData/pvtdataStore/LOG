@@ -1,0 +1,39 @@
+=============== Apr 17, 2024 (UTC) ===============
+22:15:54.145395 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:15:54.148653 db@open opening
+22:15:54.148927 version@stat F·[] S·0B[] Sc·[]
+22:15:54.150276 db@janitor F·2 G·0
+22:15:54.150288 db@open done T·1.59402ms
+=============== Apr 17, 2024 (UTC) ===============
+22:24:10.085027 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:24:10.085123 version@stat F·[] S·0B[] Sc·[]
+22:24:10.085137 db@open opening
+22:24:10.085163 journal@recovery F·1
+22:24:10.085254 journal@recovery recovering @1
+22:24:10.086184 memdb@flush created L0@2 N·10 S·594B "myc..l\x00\x01,v10":"myc..l\x00\a,d1"
+22:24:10.086453 version@stat F·[1] S·594B[594B] Sc·[0.25]
+22:24:10.091063 db@janitor F·3 G·0
+22:24:10.091073 db@open done T·5.932478ms
+22:24:10.091111 db@close closing
+22:24:10.091142 db@close done T·30.395µs
+=============== Apr 17, 2024 (UTC) ===============
+22:24:10.092720 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:24:10.092783 version@stat F·[1] S·594B[594B] Sc·[0.25]
+22:24:10.092792 db@open opening
+22:24:10.092821 journal@recovery F·1
+22:24:10.093722 journal@recovery recovering @3
+22:24:10.094728 version@stat F·[1] S·594B[594B] Sc·[0.25]
+22:24:10.098477 db@janitor F·3 G·0
+22:24:10.098494 db@open done T·5.696808ms
+22:24:10.100588 db@close closing
+22:24:10.100629 db@close done T·40.077µs
+=============== Apr 17, 2024 (UTC) ===============
+22:24:10.101481 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:24:10.101556 version@stat F·[1] S·594B[594B] Sc·[0.25]
+22:24:10.101568 db@open opening
+22:24:10.101599 journal@recovery F·1
+22:24:10.103544 journal@recovery recovering @5
+22:24:10.104884 memdb@flush created L0@7 N·7 S·547B "_\x00f,v18":"myc..\x01\x04\x00,v13"
+22:24:10.105148 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+22:24:10.109948 db@janitor F·4 G·0
+22:24:10.109974 db@open done T·8.400095ms
